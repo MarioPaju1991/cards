@@ -1,0 +1,109 @@
+/* Your card CSS file */
+.card-category {
+  height: 180px;
+  background-size: cover;
+  width: 500px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.card-product {
+  height: 120px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  gap: 15px;
+}
+
+.card-product h2 , .card-product p {
+  margin: 0;
+}
+
+.card-product img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  margin-left: 0;
+}
+
+.card-trip {
+  height: 180px;
+  background-size: cover;
+  width: 500px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.card-trip img {
+  width: 500px;
+  height: 200px;
+  margin-left: 0;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-trip-title {
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+width: 100%;
+text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+border-radius: 5px;
+box-shadow: 0 0 15px rgba(0,0,0,0.2);
+position: relative;
+}
+
+.card-trip h2 {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0;
+  padding-left: 10px;
+  margin-bottom: 0;
+  padding-right: 20px;
+}
+
+.card-trip p {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.card-trip-pricing h2 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.card-trip-title img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+  object-fit: fill;
+  position: absolute;
+  top: -5px;
+  right: 20px;
+}
